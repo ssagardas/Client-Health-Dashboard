@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/Client-Health-Dashboard',
   resolve: {
     alias: {
       // Alias @ to the src directory
